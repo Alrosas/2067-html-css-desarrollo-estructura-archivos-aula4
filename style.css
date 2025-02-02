@@ -14,16 +14,30 @@ body{
 
 }
 
+.header{
+    padding: 2% 0% 0% 15%;
+}
 
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
 
-.titulo-destaque{
+.header__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #22d4fd;
 }
 
+
+
+
+
 .presentacion{
+    padding: 7% 15%;
     display: flex;
     align-items: center;
-    margin: 10% 15%;
     justify-content: space-between;
 }
 .presentacion__contenido{
@@ -36,6 +50,11 @@ body{
     font-size: 36px;
     font-family: "Krona One", serif;
 }
+
+.titulo-destaque{
+    color: #22d4fd;
+}
+
 .presentacion__contenido__texto{
     font-size: 24px;
     font-family: "Montserrat", serif;
