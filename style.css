@@ -51,15 +51,22 @@ body{
     gap: 32px;
 }
 
+.presentacion__enlaces_subtitulo{
+    font-family: "Krona One", serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .presentacion__enlaces__link{
-    width: 280px;
-    background-color: #22d4fd;
+    width: 378px;
     text-align: center;
-    padding: 21.5px 0;
-    border-radius: 16px;
-    font-family: "Montserrat", serif;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
+    padding: 21.5px 0;
     text-decoration: none;
-    color: #000;
+    color: #f6f6f6;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #22d4fd;
+   
 }
