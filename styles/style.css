@@ -122,8 +122,7 @@ body{
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 1200px) { /* <== Elemento padre*/
     .header{
         padding: 10%;
     }
@@ -134,6 +133,10 @@ body{
 
     .presentacion{
         flex-direction: column-reverse;
+    }
+    .presentacion__contenido{ /* <== Elemento hijo este se adapta al padre*/
+        width: auto;
+       
     }
  
 }
