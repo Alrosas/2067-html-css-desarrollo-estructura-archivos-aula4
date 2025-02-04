@@ -3,7 +3,7 @@
 
 
 :root{
-    --color-primario: #5F5D9C;
+    --color-primario: #000;
     --color-secundario: #6196A6;
     --color-terciario: #A4CE95;
     --color-hover: #272727;
@@ -110,6 +110,7 @@ body{
 
 .presentacion__imagen{
     width: 50%;
+    border-radius: 100%;
 }
 
 .footer{
