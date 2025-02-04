@@ -133,6 +133,7 @@ body{
 
     .presentacion{
         flex-direction: column-reverse;
+        padding: 5%;
     }
     .presentacion__contenido{ /* <== Elemento hijo este se adapta al padre*/
         width: auto;
